@@ -12,29 +12,37 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          “Everything Starts as a Square” is a book and video course that
-          teaches you a simple method to designing icons that anyone can learn.
+          “How To Add Extra Hours To Your Day, Without Extra Stress Getting In Your Way
+.
         </p>
         <p className="mt-4">
-          Before I learned how to design icons myself, I always imagined that
-          they were drawn by hand using the pen tool, some sort of fancy
-          graphics tablet, and hours and hours spent manually fine-tuning bezier
-          curves.
+        In simple terms, photons are rays of light from the sun, your phone, the TV, and nature. 
+
+So what do photons and struggling agency owners have in common? 
+
+They’re something we see every day but never notice. 
+
+Struggling owners suffer in silence. 
+
         </p>
         <p className="mt-4">
-          But it turns out this isn’t how great icon designers work at all.
+        It’s as if there’s an unspoken rule the day you start your business that says, ‘if you’re failing, fail quietly.’, ‘if you’re miserable, tell no one.’
         </p>
         <p className="mt-4">
-          In “Everything Starts as a Square”, you’ll learn the systems experts
-          use to create pixel perfect icons, without relying on a steady hand.
+        We’re here to break that rule. 
+
+Worries are usual, but drowning in them is not. 
+
+Before we share with you a challenge that could resurrect your business and fix your mindset, let’s look at these statements. 
+
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Using boolean operations to combine basic shapes into complex icons',
-            'How to adapt icons to different sizes',
-            'Translating icons from an outline style to a solid style',
-            'Identifying the characteristics that make an icon set cohesive',
-            'Figma features and keyboard shortcuts to speed up your workflow',
+            'Sixty videos for 60 days, which can be listened to as an audiobook, covering many topics that agency owners face, backed up by scientific solutions and real-life advice',
+            'A place in the Worrying Warriors group to share your journey with other struggling agency owners.',
+            'A PDF copy of the book.',
+            'Access to an exclusive podcast with a surprise agency owner each week            ',
+           
           ].map((feature) => (
             <li key={feature} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
