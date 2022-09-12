@@ -7,6 +7,8 @@ const tableOfContents = {
     'Getting started': 1,
     'Intro to Figma': 15,
     'Setting up your first artboard': 20,
+    'Introk to Figma': 17,
+    
   },
   Fundamentals: {
     'Strokes and fills': 21,
@@ -26,6 +28,12 @@ const tableOfContents = {
     'Configuring your export settings': 88,
     'Minifying and removing metadata': 95,
   },
+  'Optimizing for production': {
+    'Preparing for SVG': 82,
+    'Configuring your export settings': 88,
+    'Minifying and removing metadata': 95,
+  },
+  
 }
 
 export function TableOfContents() {
@@ -53,7 +61,7 @@ export function TableOfContents() {
             <>
               <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
                 {Object.entries(tableOfContents)
-                  .slice(0, isExpanded ? undefined : 2)
+                  .slice(0, isExpanded ? undefined : 3)
                   .map(([title, pages]) => (
                     <li key={title}>
                       <h3 className="font-display text-3xl font-bold tracking-tight text-slate-900">

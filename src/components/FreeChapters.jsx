@@ -7,7 +7,7 @@ export function FreeChapters() {
     <section
       id="free-chapters"
       aria-label="Free preview"
-      className="scroll-mt-14 bg-blue-600 sm:scroll-mt-32"
+      className="scroll-mt-14 bg-yellow-400 sm:scroll-mt-32"
     >
       <div className="overflow-hidden lg:relative">
         <Container
@@ -19,7 +19,7 @@ export function FreeChapters() {
             <h2 className="font-display text-5xl font-extrabold tracking-tight text-white sm:w-3/4 sm:text-6xl md:w-2/3 lg:w-auto">
               Get the free sample chapters
             </h2>
-            <p className="mt-4 text-lg tracking-tight text-blue-200">
+            <p className="mt-4 text-lg tracking-tight text-yellow-200">
               Enter your email address and I’ll send you a sample from the book
               containing two of my favorite chapters.
             </p>
