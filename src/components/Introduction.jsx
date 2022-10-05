@@ -38,10 +38,19 @@ Before we share with you a challenge that could resurrect your business and fix 
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Sixty videos for 60 days, which can be listened to as an audiobook, covering many topics that agency owners face, backed up by scientific solutions and real-life advice',
-            'A place in the Worrying Warriors group to share your journey with other struggling agency owners.',
-            'A PDF copy of the book.',
-            'Access to an exclusive podcast with a surprise agency owner each week            ',
+            'I’m worried about how my agency is represented',
+            'I don’t spend enough time with my family',
+            'I sleep 4 hours a night; on a good day',
+            'I’ve put on too much weight',
+            'I can’t take a step back without being an embarrassment ',
+            'I’m doing way worse than people think',
+            'I regret starting this business',
+            
+
+
+
+
+
            
           ].map((feature) => (
             <li key={feature} className="flex">
@@ -51,9 +60,9 @@ Before we share with you a challenge that could resurrect your business and fix 
           ))}
         </ul>
         <p className="mt-8">
-          By the end of the book, you’ll have all the confidence you need to dig
-          in and start creating beautiful icons that can hold their own against
-          any of the sets you can find online.
+        
+How many of those can you agree with? 
+
         </p>
         <p className="mt-10">
           <Link

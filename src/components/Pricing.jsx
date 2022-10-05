@@ -10,8 +10,8 @@ function Plan({ name, description, price, features, href, featured }) {
   return (
     <div
       className={clsx(
-        'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 lg:px-12',
-        featured && 'bg-blue-600 sm:shadow-lg'
+        'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 w-full',
+        featured && 'bg-[#008C95] sm:shadow-lg'
       )}
     >
       {featured && (
@@ -40,7 +40,7 @@ function Plan({ name, description, price, features, href, featured }) {
           <span
             className={clsx(
               'text-[1.75rem] leading-tight',
-              featured ? 'text-blue-200' : 'text-slate-500'
+              featured ? 'text-[#008C95]' : 'text-slate-500'
             )}
           >
             $
@@ -110,18 +110,8 @@ export function Pricing() {
         </p>
       </Container>
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
-        <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
-          <Plan
-            name="Essential"
-            description="The perfect starting point if you’re on a budget."
-            price={15}
-            href="#"
-            features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Community access',
-            ]}
-          />
+        <div className=" bg-slate-50 sm:px-6 sm:pb-16  md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
+          
           <Plan
             featured
             name="Complete"

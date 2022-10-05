@@ -3,7 +3,7 @@ import { Expandable } from '@/components/Expandable'
 import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
-  'Getting started': {
+  'Health is wealth': {
     'Getting started': 1,
     'Intro to Figma': 15,
     'Setting up your first artboard': 20,

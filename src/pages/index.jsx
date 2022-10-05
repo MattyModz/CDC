@@ -41,30 +41,28 @@ export default function Home() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          “How To Add Extra Hours To Your Day, Without Extra Stress Getting In Your Way
+          “ How many of these beliefs creep into your subconscious as you lay awake at night?
 .
         </p>
         <p className="mt-4">
-        In simple terms, photons are rays of light from the sun, your phone, the TV, and nature. 
+        Eating away at your confidence and gnawing at your zealousness until you wake as nothing but a ruptured, melted puddle of anxiety. 
 
-So what do photons and struggling agency owners have in common? 
+If you can firmly say you’ve never experienced those beliefs, you can stop reading now.
+But if you’re sick of feeling this way, of allowing the tilde-wave of entrepreneur shakes, shivers, and sweat to keep you up at night and away from your family, then we have a solution for you. 
+ <br/><br/>For 5 minutes every morning, we’ll share with you a video designed to trail through the foreboding worries of an agency owner and, better yet, how to fix them. 
 
-They’re something we see every day but never notice. 
+This challenge is raw, vulnerable, and the utterly naked truth of an agency owner. <br/><br/>
 
-Struggling owners suffer in silence. 
+There will be tears and tribulations, swearing, and salvation. 
 
-        </p>
-        <p className="mt-4">
-        It’s as if there’s an unspoken rule the day you start your business that says, ‘if you’re failing, fail quietly.’, ‘if you’re miserable, tell no one.’
-        </p>
-        <p className="mt-4">
-        We’re here to break that rule. 
+There will be scientific studies and research alongside real agency owners’ advice and personal stories.
 
-Worries are usual, but drowning in them is not. 
-
-Before we share with you a challenge that could resurrect your business and fix your mindset, let’s look at these statements. 
+You’ll be part of the Worrying Warriors group, where you can discuss the Chapters of this challenge and share your journey with others. 
 
         </p>
+        <p className="mt-4">So what do you get?
+        </p>
+    
         <ul role="list" className="mt-8 space-y-3">
           {[
             'Sixty videos for 60 days, which can be listened to as an audiobook, covering many topics that agency owners face, backed up by scientific solutions and real-life advice',
@@ -80,50 +78,22 @@ Before we share with you a challenge that could resurrect your business and fix 
           ))}
         </ul>
         <p className="mt-8">
-          By the end of the book, you’ll have all the confidence you need to dig
-          in and start creating beautiful icons that can hold their own against
-          any of the sets you can find online.
+        Sign up below when you’re ready to secure your mind, build your business, and take care of your health, without sacrificing your work schedule, before our limited time discount runs out. 
         </p>
         <p className="mt-10">
           <Link
             href="#free-chapters"
             className="text-base font-medium text-blue-600 hover:text-blue-800"
           >
-            Get two free chapters straight to your inbox{' '}
+        Purchase the book {' '}
             <span aria-hidden="true">&rarr;</span>
           </Link>
         </p>
       </Container>
     </section>
-      <Testimonial
-        id="testimonial-from-tommy-stroman"
-        author={{
-          name: 'Tommy Stroman',
-          role: 'Front-end developer',
-          image: avatarImage1,
-        }}
-      >
-        <p>
-          “I didn’t know a thing about icon design until I read this book. Now I
-          can create any icon I need in no time. Great resource!”
-        </p>
-      </Testimonial>
-      <Screencasts />
-      <Testimonial
-        id="testimonial-from-gerardo-stark"
-        author={{
-          name: 'Alex chapman',
-          role: 'Director Searcharoo ',
-          image: avatarImage2,
-        }}
-      >
-        <p>
-          “I’ve tried to create my own icons in the past but quickly got
-          frustrated and gave up. Now I sell my own custom icon sets online.”
-        </p>
-      </Testimonial>
+ 
+
   
-      <FreeChapters />
       <Pricing />
     
       <Author />
