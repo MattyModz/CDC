@@ -11,7 +11,7 @@ function Plan({ name, description, price, features, href, featured }) {
     <div
       className={clsx(
         'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 w-full',
-        featured && 'bg-[#008C95] sm:shadow-lg'
+        featured && 'bg-[#2563EB] sm:shadow-lg'
       )}
     >
       {featured && (
@@ -40,7 +40,7 @@ function Plan({ name, description, price, features, href, featured }) {
           <span
             className={clsx(
               'text-[1.75rem] leading-tight',
-              featured ? 'text-[#008C95]' : 'text-slate-500'
+              featured ? 'text-white' : 'text-slate-500'
             )}
           >
             $
@@ -69,7 +69,7 @@ function Plan({ name, description, price, features, href, featured }) {
                 <CheckIcon
                   className={clsx(
                     'h-8 w-8 flex-none',
-                    featured ? 'fill-white' : 'fill-slate-600'
+                    featured ? 'fill-white' : 'fill-black'
                   )}
                 />
                 <span className="ml-4">{feature}</span>
