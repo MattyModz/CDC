@@ -4,35 +4,32 @@ import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
   'Health is wealth': {
-    'Getting started': 1,
-    'Intro to Figma': 15,
-    'Setting up your first artboard': 20,
-    'Introk to Figma': 17,
+    'What is bandwidth ': 1,
+    'Creating an environment for deep work ': 15,
+    'Reducing inflammation ': 20,
+    'Tackling information overload ': 17,
+    'Morning routine  ': 17,
     
   },
   Fundamentals: {
-    'Strokes and fills': 21,
-    'End points': 22,
-    'Bezier curves': 26,
-    'Designing on a grid': 31,
-    'Vector shapes': 45,
+    'Breaking bad habits': 21,
+    'Fitness ': 22,
+    'Taking control of your mind': 26,
+    'Craigs routine': 31,
+    'Stress Managment': 45,
   },
-  'Boolean operations': {
-    'Combining shapes': 50,
-    'Subtracting shapes': 57,
-    'Intersecting shapes': 66,
-    Flattening: 78,
+  'Agency Agonys': {
+    'Limiting beliefs of SEOs': 50,
+    'Issues most agency owners face': 57,
+    'Creating a support team': 66,
+  
   },
-  'Optimizing for production': {
-    'Preparing for SVG': 82,
-    'Configuring your export settings': 88,
-    'Minifying and removing metadata': 95,
+  'Managing stress': {
+    'Time management': 82,
+    'Meditation': 88,
+    'Mindfullness matters': 95,
   },
-  'Optimizing for production': {
-    'Preparing for SVG': 82,
-    'Configuring your export settings': 88,
-    'Minifying and removing metadata': 95,
-  },
+
   
 }
 
@@ -87,7 +84,7 @@ export function TableOfContents() {
                               className="font-mono text-slate-400"
                               aria-hidden="true"
                             >
-                              {pageNumber}
+                              
                             </span>
                           </li>
                         ))}

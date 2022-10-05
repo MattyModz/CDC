@@ -116,14 +116,14 @@ export function Pricing() {
             featured
             name="Complete"
             description="Everything icon resource you could ever ask for."
-            price={229}
+            price={49}
             href="#"
             features={[
-              'The 240-page ebook',
-              'Figma icon templates',
-              'Over an hour of screencasts',
-              'Weekly icon teardowns',
-              'Community access',
+              '60 videos for 60 days',
+              'A place in the worrying warrior group',
+              'A PDF copy of the book',
+              'Access to an exclusive podcast with a surprise agency owner each week',
+             
             ]}
           />
         </div>
