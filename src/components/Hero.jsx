@@ -55,13 +55,11 @@ export function Hero() {
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
             Confessions Of An Agency Owner {""}
-<span className='font-bold'>Join{""} </span>our 60-Day Challenge now for a limited discount of <span className='font-bold'>$49.99</span>
+<span className='font-bold'>Join{""} </span>our 60-Day Challenge now for a limited discount of <span className='font-bold'>$199.99</span>
 
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="bg-yellow-400">
-                Get sample chapter
-              </Button>
+         
               <Button href="#pricing" variant="outline" color="blue">
                 Buy book
               </Button>

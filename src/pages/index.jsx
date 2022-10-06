@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Everything Starts as a Square - Get lost in the world of icon design
+          The confessions of an SEO Agency Owner
         </title>
         <meta
           name="description"

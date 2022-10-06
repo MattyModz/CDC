@@ -116,8 +116,8 @@ export function Pricing() {
             featured
             name="Complete"
             description="Everything icon resource you could ever ask for."
-            price={49}
-            href="#"
+            price={199}
+            href="https://craigdewart.gumroad.com/l/confessions-of-an-agency-owner"
             features={[
               '60 videos for 60 days',
               'A place in the worrying warrior group',
